@@ -1,0 +1,26 @@
+{
+  "name": "ga-2627",
+  "version": "1.0.0",
+  "description": "Gymnasiearbete",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkeStaff/GA-2627.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AkeStaff/GA-2627/issues"
+  },
+  "homepage": "https://github.com/AkeStaff/GA-2627#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.9.4",
+    "node": "^26.7.0"
+  }
+}
