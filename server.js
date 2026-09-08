@@ -1,7 +1,7 @@
 require('dotenv').config()
+const connectDB = require('./config/connectDB')
 
 const express = require('express')
-const mongoose = require('mongoose')
 
 const env = {
     PORT: process.env.PORT || 3000,
@@ -10,6 +10,7 @@ const env = {
 }
 
 const app = express()
+connectDB(env.DATABASE_URI)
 
 app.use(express.json())
 
